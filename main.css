@@ -36,3 +36,23 @@ main #quote-box #quote-text {
 main #quote-box #quote-text #text {
 	font-size: 2em;
 }
+
+main #quote-box #author-text {
+	grid-row: 2 / 3;
+  	grid-column: 1 / 2;
+	text-align: right;
+}
+
+main #quote-box #button-block {
+	grid-row: 3 / 4;
+  	grid-column: 1 / 2;
+	text-align: center;
+}
+
+main #quote-box #button-block a {
+	cursor: pointer;
+}
+
+main #quote-box #button-block a:hover {
+	opacity: .5;
+}

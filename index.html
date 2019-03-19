@@ -5,6 +5,11 @@
 		<meta charset="utf-8">
 		<title>Random Quote Machine</title>
 		<link href="main.css" rel="stylesheet">
+		<!-- import Font Awesome-->
+		<link rel="stylesheet" 
+				href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+				integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+				crossorigin="anonymous">
 		<!-- import jQuery via Google CDN -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="scripts.js"></script>
@@ -14,12 +19,26 @@
 		<main>
 			<div id="quote-box">
 				<div id="quote-text">
-					<q id="text" cite="#">Replace Me</q>
+					<q id="text" cite="https://gist.githubusercontent.com/camperbot">...</q>
+				</div>
+
+				<div id="author-text">
+					<p id="author"></p>
+				</div>
+
+				<div id="button-block">
+						<a id="tweet-quote" target="_blank" title="Tweet this quote!">
+							<span class="fab fa-twitter"></span>
+						</a>
+						<a id="tumblr-quote" target="_blank" title="Post this quote on tumblr!">
+							<span class="fab fa-tumblr"></span>
+						</a>
+						<button id="new-quote">New Quote</button>
 				</div>
 			</div>
 		</main>
 		<footer>
-			
+			<p>By John H.</p>
 		</footer>
 
 		<!-- import test suite via CDN -->
