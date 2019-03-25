@@ -8,7 +8,7 @@
 
 // Global Variables
 let quotesData = null;
-var colors = ['#16a085',
+const colors = ['#16a085',
               '#27ae60',
               '#2c3e50',
               '#f39c12',
@@ -82,7 +82,7 @@ function getQuote() {
      }
   );
   // Picks a random color from our color list
-  var color = Math.floor(Math.random() * colors.length);
+  const color = Math.floor(Math.random() * colors.length);
   // Animates the background color
   $("main").animate(
     {
