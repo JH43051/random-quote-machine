@@ -1,0 +1,7 @@
+// Mixins
+
+@mixin hover($property, $value) {
+	&:hover {
+		#{$property}: $value;
+	}
+}

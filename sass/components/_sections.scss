@@ -1,0 +1,32 @@
+// Sections
+
+main {
+	width: 100vw;
+	height: 100vh;
+
+	#quote-box {
+		background-color: $startBackgroundColor;
+		border-radius: 5px;
+
+		#quote-text {
+			text-align: center;
+			margin: 5% 5% 5% 5%;
+
+			#text {
+				
+				span {
+					opacity: .5;
+					margin-right: 5%;
+				}
+			}
+		}
+
+		#author-text {
+
+			#author {
+				font-size: 1.2em;
+				margin-right: 10%;
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+// Typography
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {
+	font-family: "Raleway", sans-serif;
+}
+
+main {
+
+	#quote-box {
+
+		#quote-text {
+
+			#text {
+				font-size: 1.6em;
+				font-weight: bold;
+
+				span {
+					font-size: 1.1em;
+				}
+			}
+		}
+	}
+}

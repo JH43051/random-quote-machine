@@ -1,0 +1,29 @@
+// Flex
+
+main {
+
+	#quote-box {
+
+		#quote-text {
+			display: flex;
+			align-items: top;
+			justify-content: center;
+		}
+
+		#author-text {
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		#button-block {
+			display: flex;
+			justify-content: center;
+
+			a {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+		}
+	}
+}
